@@ -39,7 +39,7 @@ int main() {
 
 
 
-	cin>> A;
+	cin>> A; //we just use it to show the result of program cause sometimes the terminal always close
 
 	return 0;
 	
