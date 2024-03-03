@@ -1,0 +1,23 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+
+	double A , B ; 
+	cin >> A >> B ;
+ 
+	if ( A >= B ){
+		cout << "Yes " ;
+	} else {
+		cout << "No " ;	
+	}
+
+	cin>> A;
+
+	return 0;
+	
+}
