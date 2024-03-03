@@ -1,0 +1,26 @@
+//https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	double A , B ; 
+	double x; 
+
+	cin >> A >> B ;
+	x = A/B ; 
+	
+	double f = floor (x);
+	double c = ceil (x);
+	double r = round (x);
+
+	cout << "floor " << A << " / " << B << " : " << f << endl;
+	cout << "Ceil " << A << " / " << B << " : " << c << endl;
+	cout << "round " << A << " / " << B << " : " << r << endl;
+
+
+	cin>> A; //we just use it to show the result of program cause sometimes the terminal always close
+	return 0;
+	
+}
