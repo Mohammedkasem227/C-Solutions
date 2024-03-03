@@ -1,0 +1,28 @@
+//https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	int number1;
+	long number2;
+	char word;
+	double number3;
+	float number4;
+
+  // we use cin to enter the data we use >> between variables to enter all data in one line 
+  // when run the code we just need to add spaces between inputs to enter the values we enter to the varibales
+
+	cin >> number1 >> number2 >> word >> number3 >> number4 ;    
+
+	cout << number1 << endl << number2 <<endl <<  word << endl << number3 << endl << number4 ; 
+	
+	// cin>> number4;  // we can use this line if the program run display the outputs
+
+
+
+	return 0;
+	
+}
