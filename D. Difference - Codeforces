@@ -1,0 +1,17 @@
+//https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int A , B , C , D , X;
+	cin >> A >> B >> C >> D ;
+	X = (A*B)-(C*D);
+	cout << "Difference  = " << X;
+	
+	// cin>> X; //we just use it to show the result of program cause sometimes the terminal always close
+
+	return 0;
+	
+}
