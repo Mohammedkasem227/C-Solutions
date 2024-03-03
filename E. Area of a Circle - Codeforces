@@ -1,0 +1,17 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	double R ; Area;
+	cin >> R ;
+	Area = 3.14 * R*R;
+	cout << Area ;
+
+
+	cin>> R; //we just use it to show the result of program cause sometimes the terminal always close
+
+	return 0;
+	
+}
