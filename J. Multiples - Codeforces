@@ -1,0 +1,46 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+// discripe the mod function باقي القسمة https://www.youtube.com/watch?v=AyxsdN3dInM
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+
+	int A , B ; 
+			
+	cin >> A >> B ;
+ 
+// way1 without using OR
+	if ( A % B == 0 ){
+		cout << "Multiples " ;
+	
+	} else if ( B % A == 0){
+		cout << "Multiples " ;
+	
+	}else{
+		cout << "No Multiples " ;	
+	}
+
+	// we can use OR with if like this code 
+  // we can use " /* "  lines we need and add " */ " to close the comment before all lines to make it comment
+	
+  // Way2 with using OR
+	//if ( A % B == 0 ||  B % A == 0 ){
+	//	cout << "Multiples " ;
+	//} else{
+	//	cout << "No Multiples " ;	
+	//}
+	
+	
+		
+	
+
+
+
+	cin>> A;
+
+	return 0;
+	
+}
